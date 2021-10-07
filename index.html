@@ -4,13 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./page/index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Ремонт плёночных фооаппаратов</title>
 </head>
-<body class="body">
-  <header class="section">
-    <span class="">C-Works</span>
-
+<body class="page">
+  <header class="header">
+    <div class="firm">
+        <span class="firm__name">C-Works</span>
+        <div class="firm__status">
+          <span>мы открылись</span>
+        </div>
+    </div>
+    <h1 class="header__title">Ремонт</h1>
+    <p class="header__subtitle">Плёночных фотоаппаратов</p>
+    <form class="form">
+      <input type="text" class="form__field" name="email">
+      <button class="form__button" type="submit"><span class="form__button-text">Отремонтируйте камеру
+        </span>✌️</button>
+      <p class="form__caption">Напишите нам и мы свяжемся с вами.</p>
+    </form>
   </header>
+  <main>
+    <section class="gallery">
+      <div>
+        <img src="./image/photo_1.png" class="gallery__image" alt="Первая фотография">
+      </div>
+      <div class="gallery__image gallery_image_color_yellow">
+      </div>
+      <div class="gallery__image gallery_image_color_green">
+      </div>
+      <div>
+        <img src="./image/photo_2.png" class="gallery__image" alt="Вторая фотография">
+      </div>
+    </section>
+    <section class="description" >
+      <p class="description__text">
+        Мы ремонтируем плёночные фотоаппараты. Полностью механические камеры, относительно современные камеры на
+        электронике, проводим CLA камер, принимаем в зачёт оплаты сломаные тушки и объективы.
+      </p>
+    </section>
+    <section class="services">
+      <h2 class="services__title">Для энтузиастов, от энтузиастов 👈</h2>
+      <ul class="services__list">
+        <li class="card">
+          <span class="card__name">CLA</span>
+            <h3 class="card__title ">Чистка камер.</h3>
+            <p class="card__text">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.</p>
+            <span class="card__price">от 2000₽</span>
+        </li>
+        <li class="card">
+          <span class="card__name">Ремонт</span>
+            <h3 class="card__title ">Ремонт камер.</h3>
+            <p class="card__text">Ремонт механизмов, замена деталей, пайка электроники, адаптация питания.</p>
+            <span class="card__price">от 2500₽</span>
+        </li>
+      </ul>
+    </section>
+    <section class="guarantees">
+      <h2 class="guarantees__title">Полная гарантия ⚡️</h2>
+      <ul class="guarantees__list">
+        <li class="guarantees__card card">
+          <h3 class="guarantees__name">CLA</h3>
+            <p class="guarantees__text">После CLA мы даем гарантию на 1 год, в случае беды мы заново обслужим вашу камеру.</p>
+        </li>
+        <li class="guarantees__card card">
+          <h3 class="guarantees__name">Ремонт</h3>
+            <p class="guarantees__text">После ремонта мы даем гарантию на 3 месяца или 6 месяцев.</p>
+        </li>
+        <li class="guarantees__card card">
+          <h3 class="guarantees__name">Пайка и адаптация</h3>
+            <p class="guarantees__text">После пайки и адаптации питания мы даем гарантию на 1 год.</p>
+        </li>
+        <li class="guarantees__card card">
+          <h3 class="guarantees__name">Осмотр</h3>
+            <p class="guarantees__text">Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь сами.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="help-us">
+      <h2 class="help-us__title">Поддержите нас 🤝</h2>
+      <button class="help-us__button" type="button">Напишите нам если хотите помочь!</button>
+      <p class="help-us__text">Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё создали
+        аккаунт, но как только это сделаем, сообщим вам.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="firm">
+      <span class="firm__name">C-Works</span>
+      <div class="firm__status">
+        <span>мы открылись</span>
+      </div>
+  </div>
+  <form class="form">
+    <input type="text" class="form__field" name="email">
+    <button class="form__button" type="submit"><span class="form__button-text">Отремонтируйте камеру
+      </span>✌️</button>
+    <p class="form__caption">Напишите нам и мы свяжемся с вами.</p>
+  </form>
+  <p class="footer__copyright">© C-Works, 2021.</p>
+  </footer>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

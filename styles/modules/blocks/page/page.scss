@@ -1,0 +1,16 @@
+.page{
+  background-color: $backgroundColor;
+  color: $white;
+  font-family: $fontFamily;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 0 auto;
+  max-width: 280px;
+}
+
+@media screen and (min-width: 768px){
+  .page{
+    max-width: 648px;
+  }
+}
