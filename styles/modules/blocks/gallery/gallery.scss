@@ -4,13 +4,17 @@
   gap: 20px;
 }
 
-@media screen and(min-width:768px){
+@media screen and (min-width:768px){
   .gallery{
     &_place_up{
       flex-direction: row;
     }
     &_place_down{
       flex-direction: row;
+      max-height: 344px;
+        &:last-child{
+          max-width: 455px;
+        }
     }
   }
 }
@@ -23,6 +27,9 @@
     }
     &_place_down{
       display: flex;
+        &:last-child{
+          max-width: 100%;
+        }
     }
   }
 }

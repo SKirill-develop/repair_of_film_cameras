@@ -184,10 +184,19 @@
 .form__field {
   background: rgba(142, 142, 152, 0.2);
   border-radius: 8px 0px 0px 8px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.375px;
   margin: 0;
+  padding: 0 0 0 16px;
   border: 0;
   min-height: 50px;
-  padding: 0;
+  color: #fff;
+  transition: background-color 0.5s linear;
+}
+.form__field:hover {
+  background: rgba(142, 142, 152, 0.3);
+  cursor: pointer;
 }
 
 .form__button {
@@ -220,6 +229,10 @@
   }
   .gallery_place_down {
     flex-direction: row;
+    max-height: 344px;
+  }
+  .gallery_place_down:last-child {
+    max-width: 455px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -229,6 +242,9 @@
   }
   .gallery_place_down {
     display: flex;
+  }
+  .gallery_place_down:last-child {
+    max-width: 100%;
   }
 }
 .gallery__image {
@@ -245,8 +261,7 @@
 
 @media screen and (min-width: 768px) {
   .gallery_image_color_green {
-    min-height: 344px;
-    max-width: 173px;
+    min-width: 173px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -346,6 +361,11 @@
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
+  transition: background-color 0.5s linear;
+}
+.card:hover {
+  background: #232327;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {

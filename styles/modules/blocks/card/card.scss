@@ -5,6 +5,11 @@
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
+  transition: background-color .5s linear;
+    &:hover{
+      background: #232327;
+      cursor: pointer;
+    }
 }
 
 @media screen and(min-width:768px){
