@@ -1,3 +1,9 @@
 .help-us{
-  margin: 70px 0 30px 0;
+  margin: 70px 0 0 0;
+}
+
+@media screen and(min-width:768px){
+  .help-us{
+    margin-top: 120px;
+  }
 }

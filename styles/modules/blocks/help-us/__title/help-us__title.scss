@@ -2,3 +2,11 @@
   font-size: 12px;
   margin: 40px 0 50px 0;
 }
+
+@media screen and(min-width:768px){
+  .help-us__title{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 80px;
+  }
+}

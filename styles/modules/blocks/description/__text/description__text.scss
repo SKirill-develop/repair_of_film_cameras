@@ -2,3 +2,10 @@
   color: #8E8E98;
   margin: 0;
 }
+
+@media screen and(min-width:768px){
+  .description__text{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

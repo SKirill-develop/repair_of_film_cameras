@@ -2,3 +2,11 @@
   margin: 28px 0 0 0;
   color: #8E8E98;
 }
+
+@media screen and(min-width:768px){
+  .card__text{
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
