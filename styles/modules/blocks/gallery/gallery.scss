@@ -7,12 +7,22 @@
 @media screen and(min-width:768px){
   .gallery{
     &_place_up{
-      display: grid;
-      grid-template-columns: auto, 1fr;
+      flex-direction: row;
     }
     &_place_down{
-      display: grid;
-      grid-template-columns: auto, 1fr;
+      flex-direction: row;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .gallery{
+    &_place_up{
+      display: flex;
+      max-height: 230px;
+    }
+    &_place_down{
+      display: flex;
     }
   }
 }
