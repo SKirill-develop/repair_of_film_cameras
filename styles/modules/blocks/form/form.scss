@@ -1,6 +1,12 @@
 .form{
-  margin: 260px 0 40px 0;
   display: grid;
   max-width: 100%;
   grid-template-columns: 1fr max-content;
+
+    &_place_header{
+      margin: 260px 0 40px 0;
+    }
+    &_place_footer{
+      margin: 184px 0 40px 0;
+    }
 }

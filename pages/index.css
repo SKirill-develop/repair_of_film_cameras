@@ -56,11 +56,16 @@
 }
 
 .form {
-  margin: 260px 0 40px 0;
   display: grid;
   max-width: 100%;
   grid-template-columns: 1fr -webkit-max-content;
   grid-template-columns: 1fr max-content;
+}
+.form_place_header {
+  margin: 260px 0 40px 0;
+}
+.form_place_footer {
+  margin: 184px 0 40px 0;
 }
 
 .form__button-text {
@@ -73,7 +78,7 @@
   }
 }
 .form__caption {
-  margin: 10px 0 0 0;
+  margin: 10px 0 0 2px;
   color: #47474C;
 }
 
@@ -83,6 +88,7 @@
   margin: 0;
   border: 0;
   min-height: 50px;
+  padding: 0;
 }
 
 .form__button {
@@ -104,7 +110,8 @@
   }
 }
 .gallery {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 20px;
 }
 
@@ -126,7 +133,7 @@
 }
 
 .description {
-  margin: 40px 0 30px 0;
+  margin: 60px 0 20px 0;
 }
 
 .description__text {
@@ -189,7 +196,7 @@
 
 .guarantees__title {
   font-size: 12px;
-  margin: 0 0 70px 0;
+  margin: 70px 0 40px 0;
 }
 
 .guarantees__list {
@@ -212,10 +219,15 @@
   font-size: 18px;
   line-height: 18px;
   color: #EAEAF0;
+  margin: 0;
+}
+
+.guarantees__card {
+  min-height: 148px;
 }
 
 .help-us {
-  margin: 0 0 30px 0;
+  margin: 70px 0 30px 0;
 }
 
 .help-us__title {
@@ -242,4 +254,5 @@
 .footer {
   border-top: 2px solid #151515;
   padding-top: 30px;
+  margin: 180px 0 0 0;
 }/*# sourceMappingURL=index.css.map */
