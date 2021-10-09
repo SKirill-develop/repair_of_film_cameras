@@ -2,9 +2,9 @@
   display: none;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width:$tablet){
   .form__button-text{
-    display: flex;
+    @include flex;
     text-align: center;
     letter-spacing: 0.375px;
   }

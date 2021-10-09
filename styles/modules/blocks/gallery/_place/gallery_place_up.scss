@@ -1,0 +1,12 @@
+@media screen and (min-width:$tablet){
+  .gallery_place_up{
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .gallery_place_up{
+    display: flex;
+    max-height: 230px;
+  }
+}

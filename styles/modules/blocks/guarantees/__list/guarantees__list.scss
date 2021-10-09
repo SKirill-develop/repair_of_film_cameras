@@ -1,14 +1,12 @@
 .guarantees__list{
-  list-style: none;
-  margin: 0;
+  @include resetList;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
-  padding: 0;
   color: #EAEAF0;
 }
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:$desktop){
   .guarantees__list{
     grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
   }

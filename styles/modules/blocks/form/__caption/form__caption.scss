@@ -3,13 +3,8 @@
   color: #47474C;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:$tablet){
   .form__caption{
     margin-left: 10px;
-
-    &_place_footer{
-      margin-top: 18px;
-      margin-left: 0;
-    }
   }
 }

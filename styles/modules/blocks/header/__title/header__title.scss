@@ -1,21 +1,23 @@
 .header__title{
-  margin: 60px 0 0 0;
-  font-size: 50px;
-  line-height: 60px;
+  @include flex;
+  flex-direction: column;
+  margin: 10px 0 0 0;
+  font-size: 30px;
+  line-height: 38px;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:$tablet){
   .header__title{
-    margin-top: 70px;
-    font-size: 70px;
-    line-height: 90px;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
   }
 }
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:$desktop){
   .header__title{
-    margin-top: 60px;
-    font-size: 112px;
-    line-height: 112px;
+    margin-top: 20px;
+    font-size: 80px;
+    line-height: 70px;
   }
 }

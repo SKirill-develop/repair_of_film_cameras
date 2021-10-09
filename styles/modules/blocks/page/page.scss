@@ -7,15 +7,17 @@
   line-height: 18px;
   margin: 0 auto;
   max-width: 280px;
+  padding-bottom: 20px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width:$tablet){
   .page{
     max-width: 648px;
+    padding-bottom: 60px;
   }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width:$desktop){
   .page{
     max-width: 1380px;
   }

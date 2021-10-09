@@ -1,10 +1,10 @@
 .footer__copyright{
+  @include flex;
   margin: 0;
-  display: flex;
   align-content: flex-start;
 }
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:$desktop){
   .footer__copyright{
     justify-content: flex-end;
     align-content: flex-start;

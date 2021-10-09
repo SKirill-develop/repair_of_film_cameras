@@ -3,38 +3,4 @@
   max-width: 100%;
   margin: 470px 0 40px 0;
   grid-template-columns: 1fr max-content;
-
-    &_place_header{
-      margin: 260px 0 40px 0;
-    }
-    &_place_footer{
-      margin: 184px 0 40px 0;
-    }
-}
-
-@media screen and (min-width:768px){
-  .form{
-    margin-bottom: 52px;
-      &_place_header{
-        margin-top: 470px;
-      }
-      &_place_footer{
-        margin-top: 84px;
-        max-width: 569px;
-      }
-  }
-}
-
-@media screen and (min-width:1440px){
-  .form{
-    &_place_header{
-      margin-top: 230px;
-      max-width: 569px;
-      margin-bottom: 120px;
-    }
-    &_place_footer{
-      min-width: 569px;
-      margin-bottom: 0;
-    }
-  }
 }

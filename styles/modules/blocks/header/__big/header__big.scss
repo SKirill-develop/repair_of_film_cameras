@@ -1,0 +1,26 @@
+.header__big{
+  margin: 50px 0 10px 0;
+  font-size: 50px;
+  line-height: 60px;
+  max-width: 177px;
+}
+
+@media screen and (min-width:$tablet){
+  .header__big{
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 70px;
+    line-height: 90px;
+    max-width: 247px;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .header__big{
+    margin-top: 40px;
+    margin-bottom: 23px;
+    font-size: 112px;
+    line-height: 112px;
+    max-width: 395px;
+  }
+}

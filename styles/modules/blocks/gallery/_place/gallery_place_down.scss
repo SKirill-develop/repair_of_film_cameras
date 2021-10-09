@@ -1,0 +1,19 @@
+@media screen and (min-width:$tablet){
+  .gallery_place_down{
+    flex-direction: row;
+    max-height: 344px;
+      &:last-child{
+        max-width: 455px;
+      }
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .gallery_place_down{
+    display: flex;
+      &:last-child{
+        max-width: 100%;
+        min-height: 552px;
+      }
+  }
+}

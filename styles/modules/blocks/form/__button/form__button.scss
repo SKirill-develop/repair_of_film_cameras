@@ -1,5 +1,5 @@
 .form__button{
-  display: flex;
+  @include flex;
   align-items: center;
   justify-content: space-evenly;
   border: 0;
@@ -11,7 +11,7 @@
   color: #fff;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width:$tablet){
   .form__button{
     width: 221px;
   }
