@@ -1,0 +1,10 @@
+.form__caption{
+  margin: 10px 0 0 2px;
+  color: #47474C;
+}
+
+@media screen and (min-width:$tablet){
+  .form__caption{
+    margin-left: 10px;
+  }
+}

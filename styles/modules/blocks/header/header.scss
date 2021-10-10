@@ -1,0 +1,8 @@
+.header{
+  margin-top: 24px;
+}
+@media screen and (min-width:$tablet){
+  .header{
+    margin-top: 60px;
+  }
+}

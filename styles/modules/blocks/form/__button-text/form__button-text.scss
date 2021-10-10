@@ -1,0 +1,11 @@
+.form__button-text{
+  display: none;
+}
+
+@media screen and (min-width:$tablet){
+  .form__button-text{
+    @include flex;
+    text-align: center;
+    letter-spacing: 0.375px;
+  }
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width:$desktop){
+  .footer__forms{
+    @include flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}

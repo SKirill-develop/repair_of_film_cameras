@@ -1,0 +1,18 @@
+.services__list{
+  @include resetList;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+@media screen and (min-width:$tablet){
+  .services__list{
+    grid-template-columns: repeat(auto-fill, minmax(648px, 1fr));
+  }
+}
+@media screen and (min-width:$desktop){
+  .services__list{
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  }
+}

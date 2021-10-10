@@ -1,0 +1,18 @@
+.form_place_footer{
+  margin: 184px 0 40px 0;
+}
+
+@media screen and (min-width:$tablet){
+  .form_place_footer{
+    margin-top: 84px;
+    max-width: 569px;
+    margin-bottom: 55px;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .form_place_footer{
+    min-width: 569px;
+    margin-bottom: 0;
+  }
+}

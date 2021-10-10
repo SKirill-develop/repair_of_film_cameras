@@ -1,0 +1,12 @@
+.firm__name{
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media screen and (min-width:$tablet){
+  .firm__name{
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+

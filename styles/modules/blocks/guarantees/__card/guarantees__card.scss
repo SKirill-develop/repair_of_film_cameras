@@ -1,0 +1,9 @@
+.guarantees__card{
+  min-height: 148px;
+}
+
+@media screen and (min-width:$tablet){
+  .guarantees__card{
+    padding: 20px;
+  }
+}

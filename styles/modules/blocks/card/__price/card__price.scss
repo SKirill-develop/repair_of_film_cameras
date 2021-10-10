@@ -1,0 +1,12 @@
+.card__price{
+  margin: 100px 0 0 0;
+  color: #25E197;
+}
+
+@media screen and (min-width:$tablet){
+  .card__price{
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

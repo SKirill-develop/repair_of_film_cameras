@@ -1,0 +1,18 @@
+.description__text{
+  color: #8E8E98;
+  margin: 0;
+}
+
+@media screen and (min-width:$tablet){
+  .description__text{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .description__text{
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,10 @@
+.page__section{
+  padding: 0;
+}
+
+@media screen and (min-width:$desktop){
+  .page__section{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}

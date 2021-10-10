@@ -1,0 +1,17 @@
+.gallery__image_color_yellow{
+  background: #FFD233;
+  height: 67px;
+}
+
+@media screen and (min-width:$tablet){
+  .gallery__image_color_yellow{
+    min-height: 230px;
+    min-width: 180px;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .gallery__image_color_yellow{
+    min-width: 912px;
+  }
+}

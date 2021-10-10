@@ -1,0 +1,17 @@
+.gallery__image_color_green{
+  background: #25E197;
+  min-height: 124px;
+}
+
+@media screen and (min-width:$tablet){
+  .gallery__image_color_green{
+    min-width: 173px;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .gallery__image_color_green{
+    min-width: 630px;
+    min-height: 552px;
+  }
+}

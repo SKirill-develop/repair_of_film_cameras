@@ -1,0 +1,23 @@
+.header__title{
+  @include flex;
+  flex-direction: column;
+  margin: 10px 0 0 0;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+@media screen and (min-width:$tablet){
+  .header__title{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .header__title{
+    margin-top: 20px;
+    font-size: 80px;
+    line-height: 70px;
+  }
+}

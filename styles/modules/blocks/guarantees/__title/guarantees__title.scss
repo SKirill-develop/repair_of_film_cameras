@@ -1,0 +1,19 @@
+.guarantees__title{
+  font-size: 12px;
+  margin: 70px 0 40px 0;
+}
+
+@media screen and (min-width:$tablet){
+  .guarantees__title{
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .guarantees__title{
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,18 @@
+.form__button{
+  @include flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0;
+  width: 52px;
+  background: #47474C;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+@media screen and (min-width:$tablet){
+  .form__button{
+    width: 221px;
+  }
+}
